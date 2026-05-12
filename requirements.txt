@@ -1,0 +1,6 @@
+# Core dependencies for GPFF II Calculator
+numpy>=1.24.0
+matplotlib>=3.7.0
+
+# Optional: Unit support (graceful fallback if not installed)
+pint>=0.20.0
