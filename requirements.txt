@@ -1,0 +1,14 @@
+# Core dependencies for GPFF II Calculator
+numpy>=1.24.0
+matplotlib>=3.7.0
+
+# Optional: Unit support (graceful fallback if not installed)
+pint>=0.20.0
+
+# Log clustering (km.py)
+scikit-learn>=1.3.0
+joblib>=1.3.0
+
+# Development / docs tooling
+pytest>=7.0.0
+PyPDF2>=3.0.0
