@@ -103,26 +103,6 @@ The program automatically runs validation tests on startup:
    - Observed: ~1.5×10⁻¹⁴ W/m² (band-limited)
    - Ratio: ~1.7 (expected due to band limitation)
 
-## Project Structure
-
-```
-GPFFIIIcalc/
-├── main.py                 # Interactive visualization entry point
-├── config/
-│   ├── constants.py        # Physical constants with unit support
-│   ├── math_func.py        # Mathematical utilities
-│   └── physics_func.py     # Core physics implementation
-├── utils/
-│   ├── error_handler.py    # Centralized error handling
-│   ├── exceptions.py       # Custom exception hierarchy
-│   ├── logger.py           # Structured JSON logging
-│   └── __init__.py         # Package exports
-├── docs/
-│   ├── paper.txt           # Research paper (theory reference)
-│   └── gpff (2).pdf        # Original paper PDF
-└── log.jsonl               # Structured log output
-```
-
 ## Key Classes
 
 ### GPFFIIVisualizer
