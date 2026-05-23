@@ -399,15 +399,9 @@ class GPFFIIVisualizer:
 
     def calculate_flux(self, event):
         # ── Guards ────────────────────────────────────────────────────────
-        # Re-entrancy: ignore calls that arrive while a calculation is
-        # already running (matplotlib can queue multiple button events
-        # before a slow canvas.draw_idle() completes).
         if self._calculating:
             return
 
-        # Debounce: ignore calls within 200 ms of the last completed one.
-        # This catches the draw_idle() → slider callback → calculate
-        # cascade that produces burst sequences in the logs.
         now = time.time()
         if now - self._last_calc_time < 0.2:
             return

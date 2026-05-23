@@ -1,4 +1,3 @@
-#!/usr/bin/env python3
 """
 K-means clustering for GPFF II structured logs (log.jsonl).
 

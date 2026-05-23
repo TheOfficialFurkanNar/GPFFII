@@ -1,3 +1,6 @@
+"""This file is currently unused.
+Future directions aims to use this file for efficiency
+in mathematical operations."""
 import math
 import numpy as np
 from config.constants import PI
