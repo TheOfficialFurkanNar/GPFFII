@@ -175,7 +175,7 @@ Key references:
 
 ## License
 
-[Specify your license here]
+MIT
 
 ## Contributing
 
